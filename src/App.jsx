@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Loading from './components/Loading'
 import WeatherCards from './components/WeatherCards'
-import video from './assets/pexels-tim-samuel.mp4'
+import video from './assets/videoloop.mp4'
 
 function App() {
 
@@ -50,6 +50,7 @@ function App() {
   return (
     
     <div className="App">
+
       <video autoPlay loop muted className='video'>
         <source src={video}/> <source />
       </video>
